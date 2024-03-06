@@ -5,7 +5,7 @@ Feature: End to end Ecommerce validation
     Scenario: Ecommerce products delivery
     Given I open Ecommerce Page
     When I add items to Cart
-    When Validate the total prices
+    And Validate the total prices
     Then select the country submit and verify Thankyou
 
     # @Smoke
